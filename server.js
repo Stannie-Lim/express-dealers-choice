@@ -34,3 +34,14 @@ app.get('/:id', (req, res, next) => {
 });
 
 app.listen(3000)
+
+/**
+ * rm -rf node_modules
+ * git add .
+ * git commit -m "deleted node modules"
+ * git push
+ * 
+ *
+ * make a .gitignore
+ * add node_modules in there 
+ */
